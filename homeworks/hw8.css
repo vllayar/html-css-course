@@ -1,0 +1,106 @@
+.input-name,
+.input-email {
+  display: block;
+  margin: 5px 0;
+}
+
+.question {
+  width: 200px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+btn {
+  display: inlie-block;
+}
+
+.logo {
+  width: 200px;
+  display: block;
+  margin-bottom: 15px;
+  margin-left: 160px;
+  margin-top: 20px;
+}
+
+.search-bar {
+  font-size: 18px;
+  padding: 10px 16px;
+  width: 500px;
+  border: none;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.4);
+  border-radius: 30px;
+}
+
+.first-name,
+.last-name {
+  display: inline-block;
+  padding: 10px 14px;
+  width: 100px;
+  border-style: solid;
+  border-radius: 8px;
+  border-width: 1px;
+  border-color: rgba(0, 0, 0, 0.4);
+}
+
+.email {
+  display: block;
+  padding: 10px 14px;
+  width: 236px;
+  margin: 10px 0;
+  border-radius: 8px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgba(0, 0, 0, 0.4);
+}
+
+.sign-up {
+  cursor: pointer;
+  display: block;
+  margin: 10px 0;
+  width: 267px;
+  padding: 10px 14px;
+  border-radius: 8px;
+  border: none;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  background-color: rgba(0, 102, 228, 0.79);
+}
+
+.instruction {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+.pickup {
+  display: block;
+  margin-top: 0;
+  margin-bottom: 6px;
+  padding: 10px 18px;
+  border: none;
+  background-color: whitesmoke;
+  width: 260px;
+}
+.destination {
+  display: block;
+  margin-top: 0;
+  margin-bottom: 25px;
+  padding: 10px 18px;
+  border: none;
+  background-color: whitesmoke;
+  width: 260px;
+}
+.request {
+  cursor: pointer;
+  padding: 12px 20px;
+  margin-right: 10px;
+  background-color: black;
+  color: white;
+  border: none;
+}
+.schedule {
+  cursor: pointer;
+  padding: 12px 20px;
+  border: none;
+}

@@ -1,0 +1,172 @@
+.uber {
+  color: white;
+  background-color: black;
+  border: none;
+  cursor: pointer;
+  height: 40px;
+  width: 110px;
+  transition: opacity 0.15s;
+}
+
+.uber:hover {
+  opacity: 0.7;
+}
+
+.amazon {
+  background-color: rgb(255, 221, 0);
+  border: none;
+  cursor: pointer;
+  height: 30px;
+  width: 140px;
+  border-radius: 50px;
+}
+
+.amazon:hover {
+  background-color: rgb(235, 204, 1);
+}
+
+.github {
+  border: none;
+  cursor: pointer;
+  color: white;
+  background-color: rgba(0, 128, 0, 0.712);
+  height: 40px;
+  width: 100px;
+  font-weight: bold;
+  font-size: 16px;
+  border-radius: 8px;
+  transition: box-shadow 0.3s;
+}
+
+.github:hover {
+  box-shadow: 0 5px 10px rgb(0, 0, 0, 0.3);
+}
+
+.b-get-started {
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+  background-color: rgba(82, 2, 132, 0.733);
+  border: none;
+  height: 40px;
+  width: 100px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+  transition: background-color 0.3s;
+}
+
+.b-get-started:hover {
+  background-color: rgba(74, 2, 119, 0.8);
+  ;
+}
+
+.b-download {
+  color: rgb(102, 102, 102);
+  font-weight: bold;
+  background-color: white;
+  border-color: rgb(102, 102, 102);
+  border-style: solid;
+  border-width: 1px;
+  height: 40px;
+  width: 100px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.b-download:hover {
+  background-color: rgb(102, 102, 102);
+  color: white;
+}
+
+.li-apply {
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: rgba(19, 90, 197, 0.916);
+  border: none;
+  height: 38px;
+  width: 230px;
+  border-radius: 20px;
+  margin-right: 10px;
+  transition: background-color 0.15s;
+}
+
+.li-apply:hover {
+  background-color: rgba(12, 69, 154, 0.916);
+}
+
+.li-save {
+  cursor: pointer;
+  font-weight: bold;
+  color: rgba(19, 90, 197, 0.916);
+  background-color: white;
+  border-color: rgba(19, 90, 197, 0.916);
+  border-style: solid;
+  height: 38px;
+  width: 80px;
+  border-radius: 20px;
+  border-width: 1px;
+  transition: padding 0.15, border-width 0.15s, background-color 0.15s;
+}
+
+.li-save:hover {
+  padding: 9px 19px;
+  border-width: 2px;
+  background-color: rgba(19, 90, 197, 0.121);
+}
+
+.back {
+  color: rgb(5, 104, 124)
+}
+
+.back:hover {
+  color: rgb(199, 113, 0);
+}
+
+.product-name {
+  font-weight: bold;
+  font-size: 26px;
+}
+
+.price {
+  font-weight: bold;
+  color: rgba(0, 128, 0, 0.888);
+}
+
+.cart {
+  background-color: rgb(255, 227, 43);
+  border: none;
+  cursor: pointer;
+  height: 38px;
+  width: 130px;
+  border-radius: 50px;
+  margin-right: 8px;
+}
+
+.cart:hover {
+  background-color: rgb(228, 203, 40);
+  ;
+}
+
+.cart:active {
+  background-color: rgb(255, 227, 43, 0.9);
+}
+
+.buy {
+  background-color: rgb(255, 181, 43);
+  border: none;
+  cursor: pointer;
+  height: 38px;
+  width: 110px;
+  border-radius: 50px;
+}
+
+.buy:hover {
+  background-color: rgb(216, 153, 35);
+}
+
+.buy:active {
+  background-color: rgb(255, 181, 43, 0.9);
+}

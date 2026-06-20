@@ -1,0 +1,157 @@
+.tahoma {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.deals {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 6px;
+}
+
+.sales {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  font-style: italic;
+  color: rgba(255, 0, 0, 0.745);
+  margin-top: 0;
+}
+
+.html {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 800;
+  font-size: 20px;
+  margin-bottom: 0;
+}
+
+.html-subtitle {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  opacity: 0.5;
+  margin-top: 5px;
+}
+
+.html-text {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 300px;
+}
+
+.html-button {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border: none;
+  cursor: pointer;
+  background-color: rgba(0, 128, 0, 0.9);
+  color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+
+.apple-title {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+
+}
+
+.apple-subtitle {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+
+}
+
+.apple-link {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  color: rgba(0, 60, 255, 0.687);
+  cursor: pointer;
+}
+
+.mac-new {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-align: center;
+  color: rgb(226, 129, 39);
+  margin: 0 auto;
+}
+
+.mac-title {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-align: center;
+  font-size: 25px;
+  margin-top: 8px;
+  margin-bottom: 0;
+}
+
+.mac-charge {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-align: center;
+  font-size: 40px;
+  margin: 0 auto;
+
+}
+
+.mac-price {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.726);
+
+}
+
+.buy {
+  font-family: Arial, Helvetica, sans-serif;
+  display: block;
+  margin: 0 auto;
+  border: none;
+  color: white;
+  background-color: rgba(0, 102, 255, 0.922);
+  padding: 8px 15px;
+  border-radius: 15px;
+  font-weight: bold;
+}
+
+.stocks {
+  font-family: arial;
+}
+
+.price {
+  font-size: 30px;
+  margin-right: 5px;
+}
+
+.currency {
+  color: rgba(0, 0, 0, 0.554);
+}
+
+.plus {
+  color: rgba(0, 128, 0, 0.77);
+}
+
+.after {
+  color: rgba(0, 0, 0, 0.554);
+}
+
+.minus {
+  color: rgba(255, 0, 0, 0.746);
+}
+
+.fcc {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.name {
+  font-weight: bold;
+}
+
+.username {
+  color: rgba(0, 0, 0, 0.554);
+}
+
+.time {
+  color: rgba(0, 0, 0, 0.554);
+}
+
+.text {
+  width: 500px;
+}
+
+.tag {
+  color: rgba(0, 132, 255, 0.795);
+}

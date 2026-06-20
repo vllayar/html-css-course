@@ -1,0 +1,187 @@
+.red-block {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+}
+
+.green-circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: green;
+}
+
+.feedback {
+  width: 300px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgba(0, 0, 0, 0.303);
+  padding: 15px 15px;
+}
+
+.question {
+  margin-top: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+.youtube-music {
+  background-color: rgba(0, 0, 0, 0.831);
+  font-family: Arial, Helvetica, sans-serif;
+  width: 360px;
+  padding: 24px 20px;
+}
+
+.heading {
+  margin-top: 0px;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.subheading {
+  color: rgba(255, 255, 255, 0.571);
+  margin-bottom: 0;
+}
+
+.twitter {
+  padding: 10px 10px;
+  width: 415px;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 6px;
+}
+
+.profile-pic-twitter {
+  width: 46px;
+  height: 46px;
+  object-fit: cover;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+
+.post {
+  border: none;
+  vertical-align: middle;
+  font-size: 17px;
+  margin-left: 10px;
+  width: 260px;
+}
+
+.tweet {
+  cursor: pointer;
+  vertical-align: middle;
+
+  color: white;
+  background-color: rgb(0, 160, 228);
+  font-size: 15px;
+  font-weight: bold;
+  border: none;
+  border-radius: 40px;
+  padding: 10px 16px;
+  margin-right: 10px;
+}
+
+.friend-suggestion {
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+  width: 180px;
+  font-family: Arial, Helvetica, sans-serif;
+  display: inline-block;
+  margin-right: 15px;
+}
+
+.profile-pic {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+}
+
+.username {
+  margin: 5px 10px;
+  font-weight: bold;
+}
+
+.mutual-friends-number {
+  margin: 5px 10px;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.482);
+}
+
+.add-friend {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  width: 100px;
+  padding: 10px 0;
+  border: none;
+  background-color: rgba(21, 79, 225, 0.799);
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.profile-pic-1 {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+}
+
+.profile-pic-2 {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+}
+
+.profile-pic-3 {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  object-position: -40px;
+}
+
+.logo {
+  width: 200px;
+  display: block;
+  display: inline-block;
+  opacity: 0.9;
+}
+
+.search-bar {
+  font-size: 18px;
+  padding: 10px 16px;
+  width: 500px;
+  border: none;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.4);
+  border-radius: 30px;
+  display: inline-block;
+}
+
+.logo-block {
+  text-align: center;
+  margin-bottom: 15px;
+  margin-top: 20px;
+}
+.search-block {
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+
+.google-buttons {
+  margin-bottom: 15px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.search-button {
+  border: none;
+  padding: 10px 20px;
+  margin: 0 5px;
+  cursor: pointer;
+}
+.feeling-lucky-button {
+  border: none;
+  padding: 10px 20px;
+  margin: 0 5px;
+  cursor: pointer;
+}
