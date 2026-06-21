@@ -1,0 +1,76 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.grid-11a {
+  display: grid;
+  grid-template-columns: 200px 75px;
+}
+
+.grid-11b {
+  display: grid;
+  grid-template-columns: 50px 1fr 75px;
+}
+
+.grid-11c {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 20px;
+  row-gap: 5px;
+}
+
+.hw-11d {
+  display: grid;
+  grid-template-columns: 180px 180px 180px;
+  column-gap: 20px;
+}
+
+.friend-suggestion {
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+  width: 180px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.profile-pic {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+}
+
+.username {
+  margin-top: 5px;
+  margin-bottom: 2px;
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+.mutual-friends-number {
+  font-size: 14px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  color: rgba(0, 0, 0, 0.482);
+  display: inline-block;
+  margin-left: 0;
+}
+
+.mutual-friend-profile-pic {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  margin-left: 10px;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+.add-friend {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  width: 100px;
+  padding: 10px 0;
+  border: none;
+  background-color: rgba(21, 79, 225, 0.799);
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}

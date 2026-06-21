@@ -17,28 +17,24 @@
       margin-bottom: 20px;
     }
 
-    .video {
-      display: inline-block;
-      width: 300px;
-      vertical-align: top;
-      margin-right: 15px;
+    .thumbnail {
+      width: 100%
     }
 
-    .thumbnail {
-      display: block;
-      width: 300px;
+    .video-info-grid {
+      display: grid;
+      grid-template-columns: 50px 1fr;
     }
 
     .channel-picture {
-      display: inline-block;
-      width: 40px;
-      vertical-align: top;
-      margin-right: 12px;
+      width: 50px;
     }
 
-    .video-info {
-      display: inline-block;
-      width: 200px;
+    .video-info {}
+
+    .profile-picture {
+      width: 40px;
+      border-radius: 50%;
     }
 
     .video-title {
@@ -61,68 +57,157 @@
     .channel-author {
       margin-bottom: 6px;
     }
+
+    .video-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      column-gap: 16px;
+      row-gap: 40px;
+    }
   </style>
 </head>
 
 <body>
   <input type="text" class="search-bar" placeholder="Search">
-  <!-- Marques Brownlee -->
-  <div class="video">
-    <div class="thumbnail-row">
-      <img class="thumbnail" src="thumbnails/thumbnail-1.webp">
-    </div>
-    <div>
-      <div class="channel-picture">
-        <img src="channel-pictures/channel-picture-1.jpeg" alt="Marques Brownlee Channel Photo" width="100%"
-          style="border-radius: 50%;">
+  <div class="video-grid">
+    <!-- Marques Brownlee -->
+    <div class="video">
+      <div class="thumbnail-row">
+        <img class="thumbnail" src="thumbnails/thumbnail-1.webp">
       </div>
-      <div class="video-info">
-        <p class="video-title">
-          Talking Tech and AI with Google CEO Sundar Pichai!
-        </p>
-        <p class="channel-author">
-          Marques Brownlee
-        </p>
-        <p class="video-stats">
-          3.4M views &#183; 6 months ago
-        </p>
-      </div>
-    </div>
-  </div>
-  <!-- Markiplier -->
-  <div class="video">
-    <div class="thumbnail-row">
-      <img class="thumbnail" src="thumbnails/thumbnail-2.webp">
-    </div>
-    <div>
-      <div class="channel-picture">
-        <img src="channel-pictures/channel-picture-2.jpeg" alt="Marques Brownlee Channel Photo" width="100%"
-          style="border-radius: 50%;">
-      </div>
-      <div class="video-info">
-        <p class="video-title">
-          Try Not To Laugh Challenge #9
-        </p>
-        <p class="channel-author">
-          Markiplier
-        </p>
-        <p class="video-stats">
-          19M views &#183; 4 years ago
-        </p>
+      <div class="video-info-grid">
+        <div class="channel-picture">
+          <img src="channel-pictures/channel-picture-1.jpeg" alt="Marques Brownlee Channel Photo"
+            class="profile-picture">
+        </div>
+        <div class="video-info">
+          <p class="video-title">
+            Talking Tech and AI with Google CEO Sundar Pichai!
+          </p>
+          <p class="channel-author">
+            Marques Brownlee
+          </p>
+          <p class="video-stats">
+            3.4M views &#183; 6 months ago
+          </p>
+        </div>
       </div>
     </div>
-  </div>
-
-  <div class="video">
-
-    <p>
-
-    </p>
-    <p>
-
-    </p>
-    <p>
-    </p>
+    <!-- Markiplier -->
+    <div class="video">
+      <div class="thumbnail-row">
+        <img class="thumbnail" src="thumbnails/thumbnail-2.webp">
+      </div>
+      <div class="video-info-grid">
+        <div class="channel-picture">
+          <img src="channel-pictures/channel-picture-2.jpeg" alt="Marques Brownlee Channel Photo"
+            class="profile-picture">
+        </div>
+        <div class="video-info">
+          <p class="video-title">
+            Try Not To Laugh Challenge #9
+          </p>
+          <p class="channel-author">
+            Markiplier
+          </p>
+          <p class="video-stats">
+            19M views &#183; 4 years ago
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- Veritasium -->
+    <div class="video">
+      <div class="thumbnail-row">
+        <img class="thumbnail" src="thumbnails/thumbnail-3.webp">
+      </div>
+      <div class="video-info-grid">
+        <div class="channel-picture">
+          <img src="channel-pictures/channel-picture-3.jpeg""
+            class=" profile-picture">
+        </div>
+        <div class="video-info">
+          <p class="video-title">
+            The Simplest Math Problem No One Can Solve - Collatz Conjecture
+          </p>
+          <p class="channel-author">
+            Veritasium
+          </p>
+          <p class="video-stats">
+            8M views &#183; 4 months ago
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- CS Dojo -->
+    <div class="video">
+      <div class="thumbnail-row">
+        <img class="thumbnail" src="thumbnails/thumbnail-4.webp">
+      </div>
+      <div class="video-info-grid">
+        <div class="channel-picture">
+          <img src="channel-pictures/channel-picture-4.jpeg" alt="Marques Brownlee Channel Photo"
+            class="profile-picture">
+        </div>
+        <div class="video-info">
+          <p class="video-title">
+            Kadane's Algorithm to Maximum Sum Subarray Problem
+          </p>
+          <p class="channel-author">
+            CS Dojo
+          </p>
+          <p class="video-stats">
+            519K views &#183; 5 years ago
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- MrBeast -->
+    <div class="video">
+      <div class="thumbnail-row">
+        <img class="thumbnail" src="thumbnails/thumbnail-5.webp">
+      </div>
+      <div class="video-info-grid">
+        <div class="channel-picture">
+          <img src="channel-pictures/channel-picture-5.jpeg" alt="Marques Brownlee Channel Photo"
+            class="profile-picture">
+        </div>
+        <div class="video-info">
+          <p class="video-title">
+            Anything You Can Fit In The Circle I’ll Pay For
+          </p>
+          <p class="channel-author">
+            MrBeast
+          </p>
+          <p class="video-stats">
+            141M views &#183; 1 year ago
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- RealLifeLore -->
+    <div class="video">
+      <div class="thumbnail-row">
+        <img class="thumbnail" src="thumbnails/thumbnail-6.webp">
+      </div>
+      <div class="video-info-grid">
+        <div class="channel-picture">
+          <img src="channel-pictures/channel-picture-6.jpeg" alt="Marques Brownlee Channel Photo"
+            class="profile-picture">
+        </div>
+        <div class="video-info">
+          <p class="video-title">
+            Why Planes Don't Fly Over Tibet
+          </p>
+          <p class="channel-author">
+            RealLifeLore
+          </p>
+          <p class="video-stats">
+            6.6M views &#183; 1 year ago
+          </p>
+        </div>
+      </div>
+    </div>
   </div>
 
 </body>
