@@ -1,66 +1,127 @@
 <!DOCTYPE html>
-
-<style>
-  .search-bar {
-    display: block;
-  }
-
-  .video-preview1 {
-    display: inline-block;
-    width: 300px;
-    vertical-align: top;
-    margin-right: 15px;
-  }
-
-  .thumbnail-1 {
-    display: block;
-    width: 300px;
-  }
-
-  .video-preview2 {
-    display: inline-block;
-    width: 300px;
-    vertical-align: top;
-  }
-
-  .thumbnail-2 {
-    display: block;
-    width: 300px;
-  }
-</style>
-
 <html>
 
 <head>
   <title>YouTube</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+    p {
+      font-family: Roboto, Arial;
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+
+    .search-bar {
+      display: block;
+      margin-bottom: 20px;
+    }
+
+    .video {
+      display: inline-block;
+      width: 300px;
+      vertical-align: top;
+      margin-right: 15px;
+    }
+
+    .thumbnail {
+      display: block;
+      width: 300px;
+    }
+
+    .channel-picture {
+      display: inline-block;
+      width: 40px;
+      vertical-align: top;
+      margin-right: 12px;
+    }
+
+    .video-info {
+      display: inline-block;
+      width: 200px;
+    }
+
+    .video-title {
+      font-weight: 500;
+      line-height: 20px;
+      font-size: 16px;
+      margin-bottom: 12px;
+    }
+
+    .thumbnail-row {
+      margin-bottom: 12px;
+    }
+
+    .channel-author,
+    .video-stats {
+      font-size: 12px;
+      color: rgb(96, 96, 96);
+    }
+
+    .channel-author {
+      margin-bottom: 6px;
+    }
+  </style>
 </head>
 
 <body>
   <input type="text" class="search-bar" placeholder="Search">
-
-  <div class="video-preview1">
-    <img class="thumbnail-1" src="thumbnails/thumbnail-1.webp">
-    <p>
-      Talking Tech and AI with Google CEO Sundar Pichai!
-    </p>
-    <p>
-      Marques Brownlee
-    </p>
-    <p>
-      3.4M views &#183; 6 months ago
-    </p>
+  <!-- Marques Brownlee -->
+  <div class="video">
+    <div class="thumbnail-row">
+      <img class="thumbnail" src="thumbnails/thumbnail-1.webp">
+    </div>
+    <div>
+      <div class="channel-picture">
+        <img src="channel-pictures/channel-picture-1.jpeg" alt="Marques Brownlee Channel Photo" width="100%"
+          style="border-radius: 50%;">
+      </div>
+      <div class="video-info">
+        <p class="video-title">
+          Talking Tech and AI with Google CEO Sundar Pichai!
+        </p>
+        <p class="channel-author">
+          Marques Brownlee
+        </p>
+        <p class="video-stats">
+          3.4M views &#183; 6 months ago
+        </p>
+      </div>
+    </div>
   </div>
-  
-  <div class="video-preview2">
-    <img class="thumbnail-2" src="thumbnails/thumbnail-2.webp">
+  <!-- Markiplier -->
+  <div class="video">
+    <div class="thumbnail-row">
+      <img class="thumbnail" src="thumbnails/thumbnail-2.webp">
+    </div>
+    <div>
+      <div class="channel-picture">
+        <img src="channel-pictures/channel-picture-2.jpeg" alt="Marques Brownlee Channel Photo" width="100%"
+          style="border-radius: 50%;">
+      </div>
+      <div class="video-info">
+        <p class="video-title">
+          Try Not To Laugh Challenge #9
+        </p>
+        <p class="channel-author">
+          Markiplier
+        </p>
+        <p class="video-stats">
+          19M views &#183; 4 years ago
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="video">
+
     <p>
-      Try Not To Laugh Challenge #9
+
     </p>
     <p>
-      Markiplier
+
     </p>
     <p>
-      19M views &#183; 4 years ago
     </p>
   </div>
 
