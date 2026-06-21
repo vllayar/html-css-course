@@ -1,0 +1,139 @@
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* 10A styles */
+.profile-pic-10a {
+  display: inline-block;
+  margin-right: 6px;
+}
+
+.picture-10a {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+
+.profile-info-10a {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 3px;
+  width: 150px;
+  font-size: 14px;
+}
+
+.username-10a {
+  font-weight: bold;
+}
+
+.bio-10a,
+.status-10a {
+  opacity: 0.4;
+}
+
+.status-10a {
+  font-size: 12px;
+}
+
+.button-10a {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.follow-button-10a {
+  color: white;
+  background-color: rgb(0, 157, 236);
+  border: none;
+  padding: 8px 10px;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* 10C styles */
+.hw-10c {
+  font-family: Roboto;
+}
+.video-preview-10c {
+  margin-bottom: 12px;
+}
+.thumbnail-10c {
+  width: 200px;
+  vertical-align: top;
+  margin-right: 4px;
+}
+.video-info-10c {
+  display: inline-block;
+  vertical-align: top;
+  width: 250px;
+}
+.video-title-10c {
+  font-weight: 500;
+  margin-top: 0;
+  line-height: 22px;
+  margin-bottom: 10px;
+}
+.channel-name-10c,
+.video-stats-10c {
+  color: rgba(96, 96, 96, 0.885);
+  margin-top: 0;
+  font-size: 14px;
+  margin-bottom: 4px;
+}
+
+/* 10D */
+
+.friend-suggestion {
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+  width: 180px;
+  font-family: Arial, Helvetica, sans-serif;
+  display: inline-block;
+  margin-right: 15px;
+}
+
+.profile-pic {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+}
+
+.username {
+  margin-top: 5px;
+  margin-bottom: 2px;
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+.mutual-friends-number {
+  font-size: 14px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  color: rgba(0, 0, 0, 0.482);
+  display: inline-block;
+  margin-left: 0;
+}
+.mutual-friend-profile-pic {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  margin-left: 10px;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+.add-friend {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  width: 100px;
+  padding: 10px 0;
+  border: none;
+  background-color: rgba(21, 79, 225, 0.799);
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
