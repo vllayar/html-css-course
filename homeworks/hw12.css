@@ -1,0 +1,168 @@
+/* 12A */
+.a-container {
+  display: flex;
+}
+
+.a-box-1 {
+  width: 200px;
+  background-color: lightblue;
+}
+
+.a-box-2 {
+  width: 75px;
+  background-color: lightpink;
+}
+
+/* 12B */
+.b-container {
+  display: flex;
+}
+
+.b-box-1 {
+  background-color: lightblue;
+  width: 50px;
+}
+
+.b-box-2 {
+  background-color: lightpink;
+  flex: 1;
+}
+
+.b-box-3 {
+  background-color: lightblue;
+  width: 75px;
+}
+
+/* 12C */
+.c-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.c-box {
+  background-color: lightpink;
+}
+
+/* 12D */
+.d-container {
+  height: 50px;
+  border-style: solid;
+  border-color: gray;
+  border-width: 1px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+
+.d-box {
+  background-color: lightpink;
+}
+
+/* 12E */
+.e-container {
+  font-family: Arial, Helvetica, sans-serif;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgba(128, 128, 128, 0.511);
+  border-radius: 5px;
+  width: 300px;
+}
+
+.e-tabs {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 8px 14px;
+  cursor: pointer;
+}
+
+.e-counter {
+  background-color: rgb(0, 119, 255);
+  color: white;
+  padding: 2px 10px;
+  font-weight: bold;
+  border-radius: 20px;
+}
+
+/* 12F */
+.f-header {
+  background-color: rgb(120, 82, 178);
+  color: white;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 60px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  row-gap: 10px;
+  padding: 0 16px;
+}
+
+.f-home {
+  font-size: 18px;
+}
+
+.f-search-bar {
+  border: none;
+  padding: 10px 20px;
+  font-size: 14px;
+  margin: 10px;
+  border-radius: 20px;
+  width: 500px;
+}
+
+.f-download-button {
+  background-color: rgb(120, 82, 178);
+  color: white;
+  border-color: white;
+  border-style: solid;
+  border-width: 1px;
+  font-size: 16px;
+  padding: 7px 20px;
+  border-radius: 3px;
+}
+/* 12G */
+.account {
+  display: flex;
+  font-family: arial;
+  justify-content: space-between;
+  align-items: center;
+}
+.profile-pic {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 10px;
+  margin-left: 16px;
+}
+.account-info {
+  font-size: 16px;
+  flex: 1;
+  line-height: 4px;
+}
+.username {
+  font-weight: bold;
+}
+.bio,
+.status {
+  opacity: 0.5;
+}
+
+.status {
+  font-size: 14px;
+}
+.follow {
+  color: white;
+  background-color: rgba(0, 136, 255, 0.886);
+  font-weight: bold;
+  font-size: 16px;
+  margin-right: 16px;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+}
