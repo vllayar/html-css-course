@@ -107,8 +107,8 @@
 }
 
 .time {
-    opacity: 0.5;
-    font-size: 14px;
+  opacity: 0.5;
+  font-size: 14px;
 }
 
 .heading {
@@ -120,13 +120,14 @@
   opacity: 0.5;
   font-size: 15px;
 }
+
 /* 13E */
 .tweet {
   display: flex;
   font-family: Arial, Helvetica, sans-serif;
-  width: 470px;
-  
+  width: 420px;
 }
+
 .profile-pic {
   width: 50px;
   height: 50px;
@@ -134,10 +135,12 @@
   border-radius: 50%;
   margin-right: 12px;
 }
+
 .post-box {
   display: flex;
   flex-direction: column;
 }
+
 .user {
   display: flex;
   margin-bottom: 6px;
@@ -147,32 +150,42 @@
   font-weight: bold;
   margin-right: 6px;
 }
+
 .user-id {
-font-weight: 500;
-color: rgb(110, 119, 129);
+  color: rgb(110, 119, 129);
 }
+
 .text {
   margin-bottom: 10px;
+  line-height: 20px;
 }
+
 .link-box {
   display: flex;
   border-style: solid;
-  border-radius: 20px;
+  border-width: 1px;
+  border-color: rgb(203, 203, 203);
+  border-radius: 18px;
   width: 336px;
+  overflow: hidden;
 }
+
 .preview {
-background-color: gray;
-width: 140px;
-  border-radius: 20px;
-  margin: -1px;
+  background-color: rgb(203, 203, 203);
+  width: 160px;
 }
+
 .link {
-padding: 10px 20px;
+  padding: 10px 14px;
 }
+
 .website {
-color: rgb(110, 119, 129);
-
+  color: rgb(110, 119, 129);
+  margin-bottom: 4px;
+  margin-top: 4px;
 }
-.title {
 
+.title {
+  line-height: 20px;
+  margin-bottom: 4px;
 }
