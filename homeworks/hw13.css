@@ -1,0 +1,178 @@
+/* 13A */
+.container-a {
+  height: 60px;
+  display: flex;
+}
+
+.box1-a {
+  background-color: lightpink;
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.item1-a {
+  background-color: black;
+  color: white;
+}
+
+.box2-a {
+  background-color: lightblue;
+  width: 200px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.item1-a {
+  background-color: black;
+}
+
+/* 13B */
+.container-b {
+  display: flex;
+  height: 60px;
+}
+
+.box1-b {
+  background-color: lightpink;
+  width: 100px;
+}
+
+.box2-b {
+  background-color: lightblue;
+  width: 200px;
+}
+
+.row2-b {
+  display: flex;
+  justify-content: space-between;
+}
+
+.row2item-b {
+  background-color: black;
+  color: white;
+}
+
+/* 13C */
+.flexbox {
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.277);
+  border-radius: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 380px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.inboxes {
+  font-size: 15px;
+  opacity: 0.5;
+  margin-bottom: 10px;
+}
+
+.message-box {
+  display: flex;
+  align-items: center;
+  margin-bottom: 14px;
+}
+
+.sender-picture {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 10px;
+
+}
+
+.message-info {
+  display: flex;
+  flex-direction: column;
+  line-height: 24px;
+}
+
+.top-line {
+  display: flex;
+  justify-content: space-between;
+  width: 320px;
+}
+
+.sender {
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.time {
+    opacity: 0.5;
+    font-size: 14px;
+}
+
+.heading {
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.message {
+  opacity: 0.5;
+  font-size: 15px;
+}
+/* 13E */
+.tweet {
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 470px;
+  
+}
+.profile-pic {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 12px;
+}
+.post-box {
+  display: flex;
+  flex-direction: column;
+}
+.user {
+  display: flex;
+  margin-bottom: 6px;
+}
+
+.username {
+  font-weight: bold;
+  margin-right: 6px;
+}
+.user-id {
+font-weight: 500;
+color: rgb(110, 119, 129);
+}
+.text {
+  margin-bottom: 10px;
+}
+.link-box {
+  display: flex;
+  border-style: solid;
+  border-radius: 20px;
+  width: 336px;
+}
+.preview {
+background-color: gray;
+width: 140px;
+  border-radius: 20px;
+  margin: -1px;
+}
+.link {
+padding: 10px 20px;
+}
+.website {
+color: rgb(110, 119, 129);
+
+}
+.title {
+
+}
