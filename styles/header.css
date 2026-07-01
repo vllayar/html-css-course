@@ -2,9 +2,16 @@
 
 .header {
   height: 55px;
+  background-color: white;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  border-bottom-style: solid;
+  border-bottom-color: rgba(128, 128, 128, 0.186);
 }
 
 .search-bar {
